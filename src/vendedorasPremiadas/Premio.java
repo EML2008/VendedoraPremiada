@@ -7,6 +7,26 @@ public class Premio {
 	private boolean empate = false;
 	private boolean sinGanadora = false;
 
+	public int getNumeroDeVendedora() {
+		return numeroDeVendedora;
+	}
+
+	public double getMontoGanador() {
+		return montoGanador;
+	}
+
+	public int getSecuenciaGanadora() {
+		return secuenciaGanadora;
+	}
+
+	public boolean isEmpate() {
+		return empate;
+	}
+
+	public boolean isSinGanadora() {
+		return sinGanadora;
+	}
+
 	public Premio(int nroVendedora, double monto, int secuencia, boolean empate, boolean sinGanadora) {
 		this.numeroDeVendedora = nroVendedora;
 		this.montoGanador = monto;

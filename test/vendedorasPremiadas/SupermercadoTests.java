@@ -11,7 +11,7 @@ public class SupermercadoTests {
 		
 		ventas1[0] = 4;
 		ventas1[1] = 5;
-		ventas1[2] = 10;
+		ventas1[2] = 39;
 		ventas1[3] = 1;
 		
 		ventas2[0] = 4;
@@ -27,7 +27,7 @@ public class SupermercadoTests {
 		vendedoras[1] = new Vendedora(ventas2);
 		vendedoras[2] = new Vendedora(ventas3);
 		
-		Supermercado supermercado = new Supermercado(2,vendedoras);
+		Supermercado supermercado = new Supermercado(5,vendedoras);
 		System.out.println(supermercado.premiar().toString());
 	}
 }
